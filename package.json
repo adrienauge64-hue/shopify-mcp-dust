@@ -1,0 +1,11 @@
+{
+  "name": "shopify-mcp-dust",
+  "version": "1.0.0",
+  "description": "Shopify MCP Server pour Dust",
+  "scripts": {
+    "start": "npx -y supergateway --port $PORT --stdio \"npx -y shopify-mcp --clientId $SHOPIFY_CLIENT_ID --clientSecret $SHOPIFY_CLIENT_SECRET --domain $SHOPIFY_DOMAIN\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
